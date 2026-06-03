@@ -8,8 +8,8 @@ public class Exception {
 		int b = 0;
 		int c = a / b;
 		System.out.println(c);
-
-	}catch(ArithmeticException e) {
+	}
+   catch(ArithmeticException e) {
 		System.out.println("ArithmeticException");
 		
 	}
@@ -18,7 +18,6 @@ public class Exception {
 		
 	}
    finally {
-	   
 	   System.out.println(" from finally");
    }
 	}
