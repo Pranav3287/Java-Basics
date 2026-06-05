@@ -20,7 +20,7 @@ public class RetriveArrayList {
         System.out.println("--- Original List ---");
         System.out.println(list);
         
-        String b=list.get(2);
+        String b=list.get(2);//retrive the 2nd element from the list
         System.out.println(b);
         
         List<Integer> list2=new LinkedList<>();

@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.Buffer;
-public class BufferReaderDemo {
+public class BufferReaderWriterDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,6 +13,10 @@ public class BufferReaderDemo {
 		String filename = "Student.txt";
 		try(BufferedWriter writer =new BufferedWriter(new FileWriter(filename))) {
 			writer.write("Ramu Patil");
+			writer.newLine();
+			writer.write(23);
+			writer.newLine();
+			writer.write("Student.txt");
 			
 		}catch(IOException e) {
 			System.out.println("Error is occured");

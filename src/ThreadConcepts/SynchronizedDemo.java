@@ -9,6 +9,9 @@ class Account{
 		}
 	}
 }
+class SBI extends Account{
+	
+}
 public class SynchronizedDemo {
 
 	public static void main(String[] args) {
