@@ -12,6 +12,6 @@ public class FileOutputStreamDemo {
 			System.out.println("Succesfully wrote the file...");
 		}catch(Exception e) {
 			e.getMessage();		
-			}
+		}
 	}
 }
