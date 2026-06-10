@@ -18,7 +18,7 @@ public class Patternhalfpryamid {
 			}
 			System.out.println();
 		}
-
+		sc.close();
 	}
 
 }

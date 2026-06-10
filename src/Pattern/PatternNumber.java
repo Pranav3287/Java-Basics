@@ -22,6 +22,7 @@ public class PatternNumber {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }

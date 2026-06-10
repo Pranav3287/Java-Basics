@@ -15,18 +15,13 @@ public void setStudentAdd(String StudentAdd1) {
 	this.StudentAdd=StudentAdd1;
 }
 public String getName() {
-	// TODO Auto-generated method stub
 	return name;
 }
 public int getRollNo() {
-	// TODO Auto-generated method stub
 	return RollNo;
 }
 public String getStudentAdd1() {
-	// TODO Auto-generated method stub
-	return StudentAdd
-			
-			;
+	return StudentAdd;
 }
 }
 public class EncapsulationDemo {

@@ -21,6 +21,7 @@ public class Patternsquare {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }
