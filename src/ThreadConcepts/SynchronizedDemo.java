@@ -21,7 +21,6 @@ class SBI extends Account{
 public class SynchronizedDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Account a=new Account();
 		//a.withrow(20000);
 		SBI b=new SBI();
