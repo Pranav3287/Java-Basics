@@ -13,7 +13,6 @@ public class FileWritierDemo {
 			f1.close();
 			System.out.println("Successfuly writien...");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
